@@ -1,6 +1,4 @@
 ---
-downloads: ~/.ansible-downloads/
-
 configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
@@ -49,7 +47,6 @@ homebrew_installed_packages:
   - iperf
   - libevent
   - sqlite
-  - mcrypt
   - nmap
   - node
   - nvm
