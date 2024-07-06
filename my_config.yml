@@ -36,53 +36,48 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.  
   - atuin
-  - awscli
-  - ffmpeg
   - git
-  - github/gh/gh
-  - go
-  - gpg
-  - iperf  
-  - nmap
+  - gh
+  - mas
   - node
   - nvm  
+  - pnpm
   - ssh-copy-id  
   - openssl
-  - jandedobbeleer/oh-my-posh/oh-my-posh
-  - pv
   - tailscale
-  - terraform  
-  - wget
-  - wrk
   - yamllint
   - yt-dlp
-  - fig
-
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
+  - zsh-history-substring-search
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - 1password
   - 1password-cli
   - arc
   - citrix-workspace
-  - docker
   - discord  
   - firefox
   - github
-  - google-chrome
   - gpg-suite
   - guitar-pro
   - handbrake
-  - jetbrains-toolbox
   - obsidian
-  - transmit
   - visual-studio-code
+  - notion
+  - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 1365531024, name: "1Blocker - Ad Blocker" }
+  - { id: 1099568401, name: "Home Assistant" }
+  - { id: 1524216218, name: "Image Tool+" }
+  - { id: 1524335878, name: "Under My Roof Home Inventory +" }
+  - { id: 1524216218, name: "Image Tool+" }
+  - { id: 1568262835, name: "Super Agent for Safari" }
+  - { id: 1569813296, name: "1Password for Safari" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 409203825, name: "Numbers" }
+  - { id: 409183694, name: "Keynote" }
+  - { id: 639968404, name: "Parcel - Delivery Tracking" }
 mas_email: ""
 mas_password: ""
 
