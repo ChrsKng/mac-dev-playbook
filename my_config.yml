@@ -44,7 +44,6 @@ homebrew_installed_packages:
   - pnpm
   - ssh-copy-id  
   - openssl
-  - tailscale
   - yamllint
   - yt-dlp
   - zsh-history-substring-search
@@ -78,6 +77,7 @@ mas_installed_apps:
   - { id: 409203825, name: "Numbers" }
   - { id: 409183694, name: "Keynote" }
   - { id: 639968404, name: "Parcel - Delivery Tracking" }
+  - { id: 1475387142, name: "Tailscale" }  
 mas_email: ""
 mas_password: ""
 
