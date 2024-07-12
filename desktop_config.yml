@@ -47,6 +47,9 @@ homebrew_installed_packages:
   - yamllint
   - yt-dlp
   - zsh-history-substring-search
+  - hashicorp/tap/terraform
+homebrew_taps:
+  - { name: hashicorp/tap}
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -63,6 +66,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - notion
   - zoom
+  - logi-options-plus
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
